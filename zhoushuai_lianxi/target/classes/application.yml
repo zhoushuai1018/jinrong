@@ -1,0 +1,42 @@
+server:
+  port: 8081
+
+#������־
+logging:
+  level:
+    com.bw: debug # ������־����
+  path: "D:/test" #������־������ļ�·��
+
+# Spring ����
+spring:
+  application:
+    name: demo_service
+  datasource:
+    # mysql
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://119.27.176.115:10121/jinrong?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 1093451664q
+    dbcp2:
+      initial-size: 5
+      min-idle: 5
+      max-total: 5
+      max-wait-millis: 200000
+
+# mybatis ����
+mybatis:
+  # ӳ���ļ�
+  mapper-locations: classpath:mybatis/*.xml
+  # ʵ��¦
+  type-aliases-package: com.bw.pojo
+  configuration:
+    # �Զ�������Сдת��
+    map-underscore-to-camel-case: true
+
+# ��ҳ��Ϣ
+pagehelper:
+  supportMethodsArguments: true
+  reasonable: true
+  helperDialect: mysql
+  params: count=countSql
+

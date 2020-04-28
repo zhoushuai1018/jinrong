@@ -1,0 +1,42 @@
+server:
+  port: 8081
+
+#配置日志
+logging:
+  level:
+    com.bw: debug # 配置日志级别
+  path: "D:/test" #配置日志输出的文件路径
+
+# Spring 配置
+spring:
+  application:
+    name: demo_service
+  datasource:
+    # mysql
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://119.27.176.115:10121/jinrong?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 1093451664q
+    dbcp2:
+      initial-size: 5
+      min-idle: 5
+      max-total: 5
+      max-wait-millis: 200000
+
+# mybatis 配置
+mybatis:
+  # 映射文件
+  mapper-locations: classpath:mybatis/*.xml
+  # 实体娄
+  type-aliases-package: com.bw.pojo
+  configuration:
+    # 自动开启大小写转换
+    map-underscore-to-camel-case: true
+
+# 分页信息
+pagehelper:
+  supportMethodsArguments: true
+  reasonable: true
+  helperDialect: mysql
+  params: count=countSql
+
