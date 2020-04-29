@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @MapperScan("com.bw.dao.mapper")
 public class ControllerApplication {
     public static void main(String[] args) {
+
         SpringApplication.run(ControllerApplication.class,args);
     }
 }

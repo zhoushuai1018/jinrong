@@ -29,7 +29,21 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/ControllerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+              <folding>
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -148,6 +162,59 @@
               <item name="jinrongzzd" type="b2602c69:ProjectViewProjectNode" />
               <item name="jinrongzzd" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jinrongzzd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinrongzzd" type="462c0819:PsiDirectoryNode" />
+              <item name="zhoushuai_lianxi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jinrongzzd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinrongzzd" type="462c0819:PsiDirectoryNode" />
+              <item name="zhoushuai_lianxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jinrongzzd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinrongzzd" type="462c0819:PsiDirectoryNode" />
+              <item name="zhoushuai_lianxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jinrongzzd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinrongzzd" type="462c0819:PsiDirectoryNode" />
+              <item name="zhoushuai_lianxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jinrongzzd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinrongzzd" type="462c0819:PsiDirectoryNode" />
+              <item name="zhoushuai_lianxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jinrongzzd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinrongzzd" type="462c0819:PsiDirectoryNode" />
+              <item name="zhoushuai_lianxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jinrongzzd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinrongzzd" type="462c0819:PsiDirectoryNode" />
+              <item name="zhoushuai_lianxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -259,7 +326,7 @@
       <workItem from="1588092677881" duration="497000" />
       <workItem from="1588128124779" duration="1205000" />
       <workItem from="1588129867628" duration="29000" />
-      <workItem from="1588131485662" duration="2116000" />
+      <workItem from="1588131485662" duration="2360000" />
     </task>
     <task id="LOCAL-00001" summary="webin_v.1">
       <created>1588134004743</created>
@@ -268,11 +335,18 @@
       <option name="project" value="LOCAL" />
       <updated>1588134004743</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="webin_v.2">
+      <created>1588134280172</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588134280172</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25602000" />
+    <option name="totallyTimeSpent" value="25846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -282,11 +356,11 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18017058" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.18017058" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" weight="0.32104123" />
+      <window_info anchor="bottom" id="Version Control" order="1" visible="true" weight="0.32104123" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
@@ -300,7 +374,7 @@
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.35900217" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.35900217" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -318,7 +392,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="webin_v.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="webin_v.1" />
+    <MESSAGE value="webin_v.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="webin_v.2" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -484,11 +559,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/ControllerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="210">
+          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
           <folding>
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
           </folding>
         </state>
       </provider>
