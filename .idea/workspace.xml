@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1741b8ef-596f-4232-bdf9-ace5f7618c52" name="Default Changelist" comment="" />
+    <list default="true" id="1741b8ef-596f-4232-bdf9-ace5f7618c52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/ChanpinController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/DingdanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/RateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/ShenheController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/TypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/VipController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/ChanpinService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/DingdanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/RateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/ShenheService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/TypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/VipService.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/zhoushuai_lianxi/target/" />
@@ -29,7 +42,110 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/DingdanService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+              <folding>
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/RateService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/ShenheService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/TypeService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/VipService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/DingdanController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/RateController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/ShenheController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/TypeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/VipController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+              <folding>
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,8 +157,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/ChanpinService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/DingdanService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/RateService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/ShenheService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/TypeService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/VipService.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/UserService.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
@@ -86,6 +213,18 @@
         <option value="$PROJECT_DIR$/zhoushuai_lianxi/pom.xml" />
         <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/UserService.java" />
         <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/ControllerApplication.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/ChanpinService.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/ChanpinController.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/DingdanService.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/RateService.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/ShenheService.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/TypeService.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/VipService.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/DingdanController.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/RateController.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/ShenheController.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/TypeController.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/VipController.java" />
       </list>
     </option>
   </component>
@@ -105,26 +244,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="xiaozhu-zhoushuai" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="xiaozhu-zhoushuai" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="zhoushuai_lianxi" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="zhoushuai_lianxi" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -147,6 +267,105 @@
             <path>
               <item name="jinrongzzd" type="b2602c69:ProjectViewProjectNode" />
               <item name="jinrongzzd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jinrongzzd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinrongzzd" type="462c0819:PsiDirectoryNode" />
+              <item name="zhoushuai_lianxi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jinrongzzd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinrongzzd" type="462c0819:PsiDirectoryNode" />
+              <item name="zhoushuai_lianxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jinrongzzd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinrongzzd" type="462c0819:PsiDirectoryNode" />
+              <item name="zhoushuai_lianxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jinrongzzd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinrongzzd" type="462c0819:PsiDirectoryNode" />
+              <item name="zhoushuai_lianxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jinrongzzd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinrongzzd" type="462c0819:PsiDirectoryNode" />
+              <item name="zhoushuai_lianxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jinrongzzd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinrongzzd" type="462c0819:PsiDirectoryNode" />
+              <item name="zhoushuai_lianxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jinrongzzd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinrongzzd" type="462c0819:PsiDirectoryNode" />
+              <item name="zhoushuai_lianxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bw" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jinrongzzd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinrongzzd" type="462c0819:PsiDirectoryNode" />
+              <item name="zhoushuai_lianxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bw" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="TypeController" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="jinrongzzd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinrongzzd" type="462c0819:PsiDirectoryNode" />
+              <item name="zhoushuai_lianxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bw" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="VipController" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="jinrongzzd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinrongzzd" type="462c0819:PsiDirectoryNode" />
+              <item name="zhoushuai_lianxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bw" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jinrongzzd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinrongzzd" type="462c0819:PsiDirectoryNode" />
+              <item name="zhoushuai_lianxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,20 +400,22 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\javawenjian\shixuntwo\jinrongzzd\zhoushuai_lianxi\src\main\resources\mybatis" />
+      <recent name="C:\Users\TR\Desktop\备份代码\xiaozhuzhoushuai\zhoushuai_lianxi" />
+      <recent name="G:\SxiaMa\xiaozhuzhoushuai\zhoushuai_lianxi\src\main\resources\mybatis" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bw.controller" />
+      <recent name="com.bw.service" />
+      <recent name="com.bw" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\TR\Desktop\备份代码\xiaozhuzhoushuai\zhoushuai_lianxi\src\main\java\com\bw" />
       <recent name="G:\SxiaMa\xiaozhuzhoushuai\zhoushuai_lianxi\src\main\resources" />
       <recent name="G:\SxiaMa\xiaozhuzhoushuai\zhoushuai_lianxi\src\main\java" />
       <recent name="G:\SxiaMa\xiaozhuzhoushuai\zhoushuai_lianxi\src" />
       <recent name="G:\SxiaMa\xiaozhuzhoushuai" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.bw" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\javawenjian\shixuntwo\jinrongzzd\zhoushuai_lianxi\src\main\resources\mybatis" />
-      <recent name="C:\Users\TR\Desktop\备份代码\xiaozhuzhoushuai\zhoushuai_lianxi" />
-      <recent name="G:\SxiaMa\xiaozhuzhoushuai\zhoushuai_lianxi\src\main\resources\mybatis" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -272,17 +493,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25602000" />
+    <option name="totallyTimeSpent" value="26712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18017058" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.18017058" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -300,7 +522,7 @@
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.35900217" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.35900217" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -325,13 +547,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bw/pojo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bw/pojo/Canpian.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bw/pojo/Jieshao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bw/pojo/Li.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bw/pojo/Ctype.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bw/pojo/User.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bw/service/CtypeService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bw/service/impl/CtypeServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bw/dao/CtypeMapper.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/StudentMapper.xml" />
@@ -375,13 +590,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/UserMapper.java" />
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Chanpin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Dingdan.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -487,8 +695,119 @@
         <state relative-caret-position="330">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Chanpin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/ChanpinService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+          <folding>
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/ChanpinController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/DingdanService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+          <folding>
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/RateService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/ShenheService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/TypeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/VipService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/DingdanController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/RateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/ShenheController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/TypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/VipController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
           </folding>
         </state>
       </provider>
