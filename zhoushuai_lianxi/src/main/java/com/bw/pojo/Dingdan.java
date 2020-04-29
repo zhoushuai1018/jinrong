@@ -1,8 +1,9 @@
 package com.bw.pojo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Dingdan {
+public class Dingdan  implements Serializable {
     private Long did;
 
     private Long cid;

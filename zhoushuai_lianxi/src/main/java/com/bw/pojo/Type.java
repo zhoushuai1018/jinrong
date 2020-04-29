@@ -1,6 +1,8 @@
 package com.bw.pojo;
 
-public class Type {
+import java.io.Serializable;
+
+public class Type implements Serializable {
     private Long tid;
 
     private Long month;

@@ -1,6 +1,8 @@
 package com.bw.pojo;
 
-public class Vip {
+import java.io.Serializable;
+
+public class Vip  implements Serializable {
     private Long vid;
 
     private Long dengji;

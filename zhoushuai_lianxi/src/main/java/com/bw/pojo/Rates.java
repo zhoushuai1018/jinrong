@@ -1,8 +1,9 @@
 package com.bw.pojo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Rates {
+public class Rates  implements Serializable {
     private Long lid;
 
     private Double lilv;

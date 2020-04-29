@@ -1,8 +1,9 @@
 package com.bw.pojo;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
-public class User {
+public class User  implements Serializable {
     private Long uid;
 
     private String uname;

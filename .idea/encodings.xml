@@ -4,6 +4,8 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zhoushuai_lianxi" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zhoushuai_lianxi/GeneratorMapper.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/UserService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/application.yml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/application.yml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/Mapper.xml" charset="GBK" />
     <file url="PROJECT" charset="GBK" />

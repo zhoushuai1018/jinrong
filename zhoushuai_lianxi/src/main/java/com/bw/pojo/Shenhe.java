@@ -1,8 +1,9 @@
 package com.bw.pojo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Shenhe {
+public class Shenhe  implements Serializable {
     private Long sid;
 
     private String qishu;

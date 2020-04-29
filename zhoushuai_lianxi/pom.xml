@@ -75,23 +75,28 @@
 
 
         <dependency>
-            <groupId>com.alipay</groupId>
-            <artifactId>sdk-java20170324180803</artifactId>
-            <version>20170324180803</version>
-        </dependency>
-
-
-        <dependency>
-            <groupId>com.alipay</groupId>
-            <artifactId>sdk-java20170324180803-source</artifactId>
-            <version>20170324180803</version>
+            <groupId>com.alipay.sdk</groupId>
+            <artifactId>alipay-sdk-java</artifactId>
+            <version>3.7.110.ALL</version>
         </dependency>
 
         <dependency>
-            <groupId>com.alipay</groupId>
+            <groupId>commons-logging</groupId>
             <artifactId>commons-logging</artifactId>
             <version>1.1.1</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.28</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
 
 
 
