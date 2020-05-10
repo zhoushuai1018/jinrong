@@ -193,4 +193,7 @@
       cid = #{cid,jdbcType=BIGINT}
     where tid = #{tid,jdbcType=BIGINT}
   </update>
+  <select id="findAll" resultType="com.bw.vo.TypeVoRates">
+    select t.tid, t.month, r.lilv, r.udate from type t, rates r where t.lid = r.lid
+  </select>
 </mapper>

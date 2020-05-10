@@ -287,4 +287,8 @@
       shouyi = #{shouyi,jdbcType=DECIMAL}
     where cid = #{cid,jdbcType=BIGINT}
   </update>
+  <select id="findChanPinById" resultType="com.bw.vo.ChanpinVuTypeVoRates">
+    select c.qishu,c.tid,c.benjin,c.startdate,c.jisuandate,c.lastdate,c.num,c.status,c.shouyi,t.month,r.lilv,r.udate
+     from chanpin c, type t, rates r where c.tid = t.tid and t.lid = r.lid and c.cid = #{id};
+  </select>
 </mapper>

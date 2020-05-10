@@ -270,4 +270,7 @@
       vid = #{vid,jdbcType=BIGINT}
     where uid = #{uid,jdbcType=BIGINT}
   </update>
+  <select id="getUserByUsername" resultMap="BaseResultMap">
+    select * from user where uname = #{user.uname};
+  </select>
 </mapper>

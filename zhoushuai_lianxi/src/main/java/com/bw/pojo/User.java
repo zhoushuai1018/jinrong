@@ -3,7 +3,7 @@ package com.bw.pojo;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
-public class User  implements Serializable {
+public class User implements Serializable {
     private Long uid;
 
     private String uname;
@@ -12,7 +12,7 @@ public class User  implements Serializable {
 
     private String usalt;
 
-    private BigDecimal yue;
+    private Double yue;
 
     private String url;
 
@@ -54,11 +54,11 @@ public class User  implements Serializable {
         this.usalt = usalt;
     }
 
-    public BigDecimal getYue() {
+    public Double getYue() {
         return yue;
     }
 
-    public void setYue(BigDecimal yue) {
+    public void setYue(Double yue) {
         this.yue = yue;
     }
 
@@ -92,5 +92,20 @@ public class User  implements Serializable {
 
     public void setVid(Long vid) {
         this.vid = vid;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "uid=" + uid +
+                ", uname='" + uname + '\'' +
+                ", upwd='" + upwd + '\'' +
+                ", usalt='" + usalt + '\'' +
+                ", yue=" + yue +
+                ", url='" + url + '\'' +
+                ", zong=" + zong +
+                ", phone='" + phone + '\'' +
+                ", vid=" + vid +
+                '}';
     }
 }

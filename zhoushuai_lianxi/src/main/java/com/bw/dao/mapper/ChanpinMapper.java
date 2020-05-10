@@ -3,6 +3,8 @@ package com.bw.dao.mapper;
 import com.bw.pojo.Chanpin;
 import com.bw.pojo.ChanpinExample;
 import java.util.List;
+
+import com.bw.vo.ChanpinVuTypeVoRates;
 import org.apache.ibatis.annotations.Param;
 
 public interface ChanpinMapper {
@@ -27,4 +29,6 @@ public interface ChanpinMapper {
     int updateByPrimaryKeySelective(Chanpin record);
 
     int updateByPrimaryKey(Chanpin record);
+
+    ChanpinVuTypeVoRates findChanPinById(@Param("id") long id);
 }
