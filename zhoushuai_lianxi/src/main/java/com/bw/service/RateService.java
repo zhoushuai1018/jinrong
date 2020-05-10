@@ -18,4 +18,9 @@ public class RateService {
     public List findAll() {
         return ratesMapper.selectByExample(new RatesExample());
     }
+
+
+    public List findLiv(long uid) {
+        return ratesMapper.findLiv(uid);
+    }
 }

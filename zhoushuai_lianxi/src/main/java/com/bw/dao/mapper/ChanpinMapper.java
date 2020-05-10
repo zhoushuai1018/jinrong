@@ -5,6 +5,8 @@ import com.bw.pojo.ChanpinExample;
 import java.util.List;
 
 import com.bw.vo.ChanpinVuTypeVoRates;
+
+import com.bw.pojo.vo.All;
 import org.apache.ibatis.annotations.Param;
 
 public interface ChanpinMapper {
@@ -31,4 +33,14 @@ public interface ChanpinMapper {
     int updateByPrimaryKey(Chanpin record);
 
     ChanpinVuTypeVoRates findChanPinById(@Param("id") long id);
+
+    List findChanpinAndTypeAndRate();
+
+    All findChanpinAndTypeAndRateOne(Long cid);
+
+    Chanpin findByChanpin(Long tid);
+
+    All findMingxi(long tid);
+
+    All isUpdate(Chanpin chanpin);
 }

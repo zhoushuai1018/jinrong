@@ -22,6 +22,10 @@ public class User implements Serializable {
 
     private Long vid;
 
+    public void setYue(Double yue) {
+        this.yue = yue;
+    }
+
     public Long getUid() {
         return uid;
     }
@@ -56,10 +60,6 @@ public class User implements Serializable {
 
     public Double getYue() {
         return yue;
-    }
-
-    public void setYue(Double yue) {
-        this.yue = yue;
     }
 
     public String getUrl() {
@@ -108,4 +108,5 @@ public class User implements Serializable {
                 ", vid=" + vid +
                 '}';
     }
+
 }

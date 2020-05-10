@@ -1,13 +1,13 @@
 server:
   port: 8081
 
-#ÅäÖÃÈÕÖ¾
+#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾
 logging:
   level:
-    com.bw: debug # ÅäÖÃÈÕÖ¾¼¶±ğ
-  path: "D:/test" #ÅäÖÃÈÕÖ¾Êä³öµÄÎÄ¼şÂ·¾¶
+    com.bw: debug # ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½
+  path: "D:/test" #ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½Â·ï¿½ï¿½
 
-# Spring ÅäÖÃ
+# Spring ï¿½ï¿½ï¿½ï¿½
 spring:
   application:
     name: zhoushuai_lianxi
@@ -22,21 +22,22 @@ spring:
       min-idle: 5
       max-total: 5
       max-wait-millis: 200000
-
-# mybatis ÅäÖÃ
+  redis:
+    host: 127.0.0.1
+    port: 6379  #å¯ä¸é…ï¼Œå› ä¸ºåº•å±‚é»˜è®¤å€¼ä¸º6379
+# mybatis ï¿½ï¿½ï¿½ï¿½
 mybatis:
-  # Ó³ÉäÎÄ¼ş
+  # Ó³ï¿½ï¿½ï¿½Ä¼ï¿½
   mapper-locations: classpath:mybatis/*.xml
-  # ÊµÌåÂ¦
+  # Êµï¿½ï¿½Â¦
   type-aliases-package: com.bw.pojo
   configuration:
-    # ×Ô¶¯¿ªÆô´óĞ¡Ğ´×ª»»
+    # ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ¡Ğ´×ªï¿½ï¿½
     map-underscore-to-camel-case: true
 
-# ·ÖÒ³ĞÅÏ¢
+# ï¿½ï¿½Ò³ï¿½ï¿½Ï¢
 pagehelper:
   supportMethodsArguments: true
   reasonable: true
   helperDialect: mysql
   params: count=countSql
-

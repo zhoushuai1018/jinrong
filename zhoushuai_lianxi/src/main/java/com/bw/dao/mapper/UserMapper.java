@@ -1,5 +1,6 @@
 package com.bw.dao.mapper;
 
+import com.bw.pojo.Chanpin;
 import com.bw.pojo.User;
 import com.bw.pojo.UserExample;
 import java.util.List;
@@ -29,4 +30,18 @@ public interface UserMapper {
     int updateByPrimaryKey(User record);
 
     User getUserByUsername(@Param("user") User user);
+
+    User findByNameAndPwd(User user);
+
+    void inserUser(User user);
+
+    void updateuser(User login);
+
+    void updvid(User user);
+
+    void upYue(User login);
+
+    void upChanPin(@Param("chanpin") Chanpin chanpin);
+
+    void upChanPinStatus(@Param("chanpin") Chanpin chanpin);
 }

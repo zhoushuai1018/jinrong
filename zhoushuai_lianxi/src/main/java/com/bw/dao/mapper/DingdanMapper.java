@@ -27,4 +27,6 @@ public interface DingdanMapper {
     int updateByPrimaryKeySelective(Dingdan record);
 
     int updateByPrimaryKey(Dingdan record);
+
+    List findDingdan(Long uid);
 }

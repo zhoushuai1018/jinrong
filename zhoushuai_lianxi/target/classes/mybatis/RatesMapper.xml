@@ -193,4 +193,14 @@
       udate = #{udate,jdbcType=DATE}
     where lid = #{lid,jdbcType=BIGINT}
   </update>
+  <insert id="addRate" parameterType="com.bw.pojo.Rates">
+    <selectKey keyProperty="lid" keyColumn="lid" resultType="java.lang.Long">
+      select LAST_INSERT_ID()
+    </selectKey>
+    insert into rates (lilv,uid,udate) values(#{lilv},#{uid},#{udate})
+  </insert>
+
+  <select id="findLiv" resultType="com.bw.pojo.Rates">
+    select lilv,udate from rates,type where rates.uid = type.tid and uid=#{uid} order by udate
+  </select>
 </mapper>

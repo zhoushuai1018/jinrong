@@ -208,4 +208,8 @@
       dstatus = #{dstatus,jdbcType=BIGINT}
     where did = #{did,jdbcType=BIGINT}
   </update>
+
+  <select id="findDingdan" resultType="com.bw.pojo.Dingdan">
+    select * from dingdan where uid = #{uid}
+  </select>
 </mapper>

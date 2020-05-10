@@ -11,7 +11,7 @@ public class Chanpin implements Serializable {
 
     private Long tid;
 
-    private BigDecimal benjin;
+    private Double benjin;
 
     private Date startdate;
 
@@ -23,7 +23,11 @@ public class Chanpin implements Serializable {
 
     private Long status;
 
-    private BigDecimal shouyi;
+    private Double shouyi;
+
+    public Double getShouyi() {
+        return shouyi;
+    }
 
     public Long getCid() {
         return cid;
@@ -49,12 +53,16 @@ public class Chanpin implements Serializable {
         this.tid = tid;
     }
 
-    public BigDecimal getBenjin() {
+    public Double getBenjin() {
         return benjin;
     }
 
-    public void setBenjin(BigDecimal benjin) {
+    public void setBenjin(Double benjin) {
         this.benjin = benjin;
+    }
+
+    public void setShouyi(Double shouyi) {
+        this.shouyi = shouyi;
     }
 
     public Date getStartdate() {
@@ -97,11 +105,19 @@ public class Chanpin implements Serializable {
         this.status = status;
     }
 
-    public BigDecimal getShouyi() {
-        return shouyi;
-    }
-
-    public void setShouyi(BigDecimal shouyi) {
-        this.shouyi = shouyi;
+    @Override
+    public String toString() {
+        return "Chanpin{" +
+                "cid=" + cid +
+                ", qishu='" + qishu + '\'' +
+                ", tid=" + tid +
+                ", benjin=" + benjin +
+                ", startdate=" + startdate +
+                ", jisuandate=" + jisuandate +
+                ", lastdate=" + lastdate +
+                ", num=" + num +
+                ", status=" + status +
+                ", shouyi=" + shouyi +
+                '}';
     }
 }

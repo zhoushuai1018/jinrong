@@ -2,47 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1741b8ef-596f-4232-bdf9-ace5f7618c52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/util/MD5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/util/UUIDUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/vo/ChanpinVuTypeVoRates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/vo/TypeVoRates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/config/AlipayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/vo/All.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/static/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/config/AlipayConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/pojo/vo/All.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/static/js/jquery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/ControllerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/ControllerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/ChanpinController.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/ChanpinController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/DingdanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/DingdanController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/RateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/RateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/ShenheController.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/ShenheController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/TypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/TypeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/VipController.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/VipController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/ChanpinMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/ChanpinMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/DingdanMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/DingdanMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/RatesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/RatesMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/TypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/TypeMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/VipMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/VipMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Chanpin.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Chanpin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Type.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/ChanpinService.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/ChanpinService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/DingdanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/DingdanService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/RateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/RateService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/TypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/TypeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/VipService.java" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/VipService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/ChanpinMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/ChanpinMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/DingdanMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/DingdanMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/RatesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/RatesMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/TypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/TypeMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/VipMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/VipMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/ControllerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/ControllerApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/controller/ChanpinController.class" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/controller/ChanpinController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/controller/DingdanController.class" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/controller/DingdanController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/controller/RateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/controller/RateController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/controller/ShenheController.class" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/controller/ShenheController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/controller/TypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/controller/TypeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/controller/VipController.class" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/controller/VipController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/dao/mapper/ChanpinMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/dao/mapper/ChanpinMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/dao/mapper/DingdanMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/dao/mapper/DingdanMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/dao/mapper/RatesMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/dao/mapper/RatesMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/dao/mapper/TypeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/dao/mapper/TypeMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/dao/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/dao/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/dao/mapper/VipMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/dao/mapper/VipMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/pojo/Chanpin.class" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/pojo/Chanpin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/pojo/Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/pojo/Type.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/pojo/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/service/ChanpinService.class" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/service/ChanpinService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/service/DingdanService.class" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/service/DingdanService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/service/RateService.class" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/service/RateService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/service/TypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/service/TypeService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/service/VipService.class" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/com/bw/service/VipService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/mybatis/ChanpinMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/mybatis/ChanpinMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/mybatis/DingdanMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/mybatis/DingdanMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/mybatis/RatesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/mybatis/RatesMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/mybatis/TypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/mybatis/TypeMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/mybatis/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/mybatis/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/zhoushuai_lianxi-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/zhoushuai_lianxi-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/mybatis/VipMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zhoushuai_lianxi/target/classes/mybatis/VipMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -75,53 +107,78 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1081">
-              <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+            <state relative-caret-position="465">
+              <caret line="105" column="29" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="29" />
               <folding>
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#657#658#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#3050#3051#0" expanded="true" />
+                <element signature="e#3097#3098#0" expanded="true" />
+                <element signature="e#3345#3360#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/ChanpinController.java">
+        <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="311">
+              <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+              <folding>
+                <element signature="e#1833#1834#0" expanded="true" />
+                <element signature="e#1893#1894#0" expanded="true" />
+                <element signature="e#1939#1940#0" expanded="true" />
+                <element signature="e#1984#1985#0" expanded="true" />
+                <element signature="e#2036#2037#0" expanded="true" />
+                <element signature="e#2087#2088#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/ChanpinService.java">
+        <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+            <state relative-caret-position="379">
+              <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="294" column="54" lean-forward="true" selection-start-line="294" selection-start-column="54" selection-end-line="294" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/ChanpinMapper.java">
+        <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/vo/All.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="32" column="40" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="40" />
+            <state relative-caret-position="241">
+              <caret line="325" column="10" lean-forward="true" selection-start-line="325" selection-start-column="10" selection-end-line="325" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1220#1221#0" expanded="true" />
+                <element signature="e#1248#1249#0" expanded="true" />
+                <element signature="e#1290#1291#0" expanded="true" />
+                <element signature="e#1324#1325#0" expanded="true" />
+                <element signature="e#1189#1190#0" expanded="true" />
+                <element signature="e#1215#1216#0" expanded="true" />
+                <element signature="e#1727#1728#0" expanded="true" />
+                <element signature="e#1756#1757#0" expanded="true" />
+                <element signature="e#1800#1801#0" expanded="true" />
+                <element signature="e#1836#1837#0" expanded="true" />
+                <element signature="e#2589#2590#0" expanded="true" />
+                <element signature="e#2618#2619#0" expanded="true" />
+                <element signature="e#2662#2663#0" expanded="true" />
+                <element signature="e#2698#2699#0" expanded="true" />
+                <element signature="e#4286#4287#0" expanded="true" />
+                <element signature="e#4312#4313#0" expanded="true" />
+                <element signature="e#4350#4351#0" expanded="true" />
+                <element signature="e#4380#4381#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,24 +186,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/ChanpinMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6578">
+            <state relative-caret-position="113">
               <caret line="286" column="41" selection-start-line="286" selection-start-column="41" selection-end-line="286" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/User.java">
+        <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/TypeMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="897">
-              <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#901#902#0" expanded="true" />
-                <element signature="e#927#928#0" expanded="true" />
-                <element signature="e#965#966#0" expanded="true" />
-                <element signature="e#995#996#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="172">
+              <caret line="197" column="11" selection-start-line="197" selection-start-column="11" selection-end-line="197" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -154,29 +204,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Chanpin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="25" column="30" selection-start-line="7" selection-start-column="3" selection-end-line="25" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Type.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Rates.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="195">
+              <caret line="108" column="18" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
+                <element signature="e#851#852#0" expanded="true" />
+                <element signature="e#895#896#0" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
+                <element signature="e#975#976#0" expanded="true" />
+                <element signature="e#1011#1012#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/static/success.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/static/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -188,6 +245,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -195,66 +253,68 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/RateService.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/DingdanService.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/ChanpinService.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/ShenheService.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/UserService.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/TypeService.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/VipService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/TypeService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/ShenheService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/RateService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/ChanpinService.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/bw/pojo/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bw/pojo/Canpian.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bw/pojo/Jieshao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bw/pojo/Li.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bw/pojo/Type.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bw/pojo/Ctype.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bw/ControllerApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bw/service/CtypeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bw/controller/CtypeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bw/service/impl/CtypeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bw/dao/CtypeMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/StudentMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/CtypeMapper.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Vo/CtypeVo.java" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/CtypeService.java" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/impl/CtypeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/CtypeMapper.xml" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/CtypeController.java" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/CtypeMapper.java" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Vo/CanpinVo.java" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/Mapper.xml" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/GeneratorMapper.xml" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/GeneratorMapper.xml" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Chanpin.java" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Dingdan.java" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Rates.java" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Shenhe.java" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Type.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/vo/TypeVoRates.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/TypeMapper.xml" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/ChanpinService.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/ChanpinController.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/vo/ChanpinVuTypeVoRates.java" />
         <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Vip.java" />
         <option value="$PROJECT_DIR$/zhoushuai_lianxi/pom.xml" />
         <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/ControllerApplication.java" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/util/MD5Util.java" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/TypeService.java" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/TypeMapper.java" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/TypeController.java" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/vo/TypeVoRates.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/ShenheService.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/ShenheController.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Type.java" />
         <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/TypeMapper.xml" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/User.java" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/ChanpinMapper.java" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/ChanpinService.java" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/ChanpinMapper.xml" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/TypeService.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/VipController.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/VipService.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/DingdanMapper.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/DingdanMapper.xml" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/DingdanController.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/static/aa.html" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/VipMapper.xml" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/VipMapper.java" />
         <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/ChanpinController.java" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/vo/ChanpinVuTypeVoRates.java" />
-        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/ChanpinService.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/DingdanService.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/RateController.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/RateService.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/RatesMapper.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/RatesMapper.xml" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/TypeController.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/TypeController.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/ChanpinMapper.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/ChanpinMapper.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/TypeMapper.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/TypeMapper.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/User.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/User.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/static/index.html" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/config/AlipayConfig.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/static/success.html" />
         <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/UserService.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/UserService.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/ChanpinMapper.xml" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/ChanpinMapper.xml" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Chanpin.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/vo/All.java" />
+        <option value="$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/UserMapper.xml" />
       </list>
     </option>
   </component>
@@ -302,10 +362,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="52" />
-    <option name="y" value="55" />
-    <option name="width" value="1827" />
-    <option name="height" value="951" />
+    <option name="x" value="135" />
+    <option name="y" value="79" />
+    <option name="width" value="1635" />
+    <option name="height" value="910" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -313,8 +373,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -381,7 +441,41 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="bw" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dytjinrong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dytjinrong" type="462c0819:PsiDirectoryNode" />
+              <item name="zhoushuai_lianxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bw" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dytjinrong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dytjinrong" type="462c0819:PsiDirectoryNode" />
+              <item name="zhoushuai_lianxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bw" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dytjinrong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dytjinrong" type="462c0819:PsiDirectoryNode" />
+              <item name="zhoushuai_lianxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bw" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dytjinrong" type="b2602c69:ProjectViewProjectNode" />
@@ -403,7 +497,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="bw" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dytjinrong" type="b2602c69:ProjectViewProjectNode" />
@@ -414,7 +509,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="bw" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dytjinrong" type="b2602c69:ProjectViewProjectNode" />
@@ -433,6 +528,15 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="mybatis" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="dytjinrong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dytjinrong" type="462c0819:PsiDirectoryNode" />
+              <item name="zhoushuai_lianxi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -440,6 +544,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -450,7 +555,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/zhoushuai_lianxi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zuoye/PayTest" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -462,23 +567,27 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\javawenjian\shixuntwo\jinrongzzd\zhoushuai_lianxi\src\main\resources\static" />
       <recent name="E:\javawenjian\shixuntwo\jinrongzzd\zhoushuai_lianxi\src\main\resources\mybatis" />
       <recent name="C:\Users\TR\Desktop\备份代码\xiaozhuzhoushuai\zhoushuai_lianxi" />
       <recent name="G:\SxiaMa\xiaozhuzhoushuai\zhoushuai_lianxi\src\main\resources\mybatis" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bw.controller" />
+      <recent name="com.bw.config" />
+      <recent name="com.bw.service" />
       <recent name="com.bw" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\javawenjian\shixuntwo\jinrongzzd\zhoushuai_lianxi\src\main\resources\js" />
       <recent name="C:\Users\TR\Desktop\备份代码\xiaozhuzhoushuai\zhoushuai_lianxi\src\main\java\com\bw" />
       <recent name="G:\SxiaMa\xiaozhuzhoushuai\zhoushuai_lianxi\src\main\resources" />
       <recent name="G:\SxiaMa\xiaozhuzhoushuai\zhoushuai_lianxi\src\main\java" />
       <recent name="G:\SxiaMa\xiaozhuzhoushuai\zhoushuai_lianxi\src" />
-      <recent name="G:\SxiaMa\xiaozhuzhoushuai" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -497,7 +606,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.16017316" />
+    <option name="contentProportion" value="0.14393939" />
   </component>
   <component name="RunManager">
     <configuration name="ControllerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -509,7 +618,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bw.ControllerApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -549,6 +657,15 @@
       <workItem from="1588561033957" duration="3005000" />
       <workItem from="1588739938424" duration="880000" />
       <workItem from="1589028643490" duration="1511000" />
+      <workItem from="1588131485662" duration="2116000" />
+      <workItem from="1588205902669" duration="4683000" />
+      <workItem from="1588329787005" duration="1938000" />
+      <workItem from="1588383111587" duration="7352000" />
+      <workItem from="1588477192050" duration="17855000" />
+      <workItem from="1588598345566" duration="2882000" />
+      <workItem from="1588638934451" duration="9903000" />
+      <workItem from="1588726025943" duration="1611000" />
+      <workItem from="1588814662230" duration="704000" />
     </task>
     <task id="LOCAL-00001" summary="webin_v.1">
       <created>1588134004743</created>
@@ -568,7 +685,16 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46356000" />
+    <option name="totallyTimeSpent" value="108102000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -592,16 +718,16 @@
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.32998884" />
       <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49946696" visible="true" weight="0.3264642" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32998884" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.31019524" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.13166311" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.18070363" />
       <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -615,112 +741,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="webin_v.1" />
     <MESSAGE value="webin_v.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="webin_v.2" />
+    <MESSAGE value="webin_v.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="webin_v.3" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/StudentMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/demo-lianxi/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/src/main/java/com/bw/dao/CtypeMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bw/controller/CtypeController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bw/ControllerApplication.java" />
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/CtypeService.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.1/mybatis-spring-boot-autoconfigure-1.3.1.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Ctype.java" />
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Li.java" />
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Jieshao.java" />
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Canpian.java" />
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Vo/CtypeVo.java" />
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Vo/CanpinVo.java" />
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/impl/CtypeServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/CtypeController.java" />
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/CtypeMapper.java" />
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/GeneratorMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="20" column="81" selection-start-line="20" selection-start-column="81" selection-end-line="20" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/VipMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/Mapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/UserMapper.java" />
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Dingdan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Shenhe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Vip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/DingdanController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/ShenheController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/ControllerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -738,55 +770,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/pom.xml">
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/VipController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/ShenheController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/DingdanMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1133">
-          <caret line="839" column="10" selection-start-line="839" selection-start-column="10" selection-end-line="839" selection-end-column="10" />
+        <state relative-caret-position="-2247">
+          <caret line="1023" column="16" selection-start-line="1023" selection-start-column="16" selection-end-line="1023" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/TypeService.java">
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/DingdanMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        <state relative-caret-position="418">
+          <caret line="212" column="44" lean-forward="true" selection-start-line="212" selection-start-column="44" selection-end-line="212" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/DingdanController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/TypeMapper.java">
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/js/jquery-2.2.3.min.js" />
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/static/aa.html" />
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/VipService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/TypeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        <state relative-caret-position="268">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/VipMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/VipMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="198" column="11" selection-start-line="198" selection-start-column="11" selection-end-line="198" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/Mapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/ShenheMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/vo/TypeVoRates.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -825,10 +896,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/TypeMapper.xml">
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Dingdan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="197" column="11" lean-forward="true" selection-start-line="197" selection-start-column="11" selection-end-line="197" selection-end-column="11" />
+        <state relative-caret-position="150">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -844,59 +918,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/RatesMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+        <state relative-caret-position="328">
+          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/ChanpinController.java">
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/RatesMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="358">
+          <caret line="205" column="9" lean-forward="true" selection-start-line="205" selection-start-column="9" selection-end-line="205" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/ChanpinService.java">
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/RateController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/ChanpinMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="32" column="40" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/ChanpinMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6578">
-          <caret line="286" column="41" selection-start-line="286" selection-start-column="41" selection-end-line="286" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+        <state relative-caret-position="148">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Chanpin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="25" column="30" selection-start-line="7" selection-start-column="3" selection-end-line="25" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -917,19 +962,240 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/ChanpinMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-490">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/TypeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/DingdanService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/ShenheService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/ControllerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/static/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/RateService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/static/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/ChanpinService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/TypeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/ChanpinController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/TypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/config/AlipayConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/static/success.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/TypeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="197" column="11" selection-start-line="197" selection-start-column="11" selection-end-line="197" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/Chanpin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="108" column="18" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
+          <folding>
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/pojo/vo/All.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="325" column="10" lean-forward="true" selection-start-line="325" selection-start-column="10" selection-end-line="325" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#1248#1249#0" expanded="true" />
+            <element signature="e#1290#1291#0" expanded="true" />
+            <element signature="e#1324#1325#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1727#1728#0" expanded="true" />
+            <element signature="e#1756#1757#0" expanded="true" />
+            <element signature="e#1800#1801#0" expanded="true" />
+            <element signature="e#1836#1837#0" expanded="true" />
+            <element signature="e#2589#2590#0" expanded="true" />
+            <element signature="e#2618#2619#0" expanded="true" />
+            <element signature="e#2662#2663#0" expanded="true" />
+            <element signature="e#2698#2699#0" expanded="true" />
+            <element signature="e#4286#4287#0" expanded="true" />
+            <element signature="e#4312#4313#0" expanded="true" />
+            <element signature="e#4350#4351#0" expanded="true" />
+            <element signature="e#4380#4381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/ChanpinMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="286" column="41" selection-start-line="286" selection-start-column="41" selection-end-line="286" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="105" column="29" selection-start-line="105" selection-start-column="29" selection-end-line="105" selection-end-column="29" />
+          <folding>
+            <element signature="e#3050#3051#0" expanded="true" />
+            <element signature="e#3097#3098#0" expanded="true" />
+            <element signature="e#3345#3360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        <state relative-caret-position="311">
+          <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
           <folding>
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#1833#1834#0" expanded="true" />
+            <element signature="e#1893#1894#0" expanded="true" />
+            <element signature="e#1939#1940#0" expanded="true" />
+            <element signature="e#1984#1985#0" expanded="true" />
+            <element signature="e#2036#2037#0" expanded="true" />
+            <element signature="e#2087#2088#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/java/com/bw/dao/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhoushuai_lianxi/src/main/resources/mybatis/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="294" column="54" lean-forward="true" selection-start-line="294" selection-start-column="54" selection-end-line="294" selection-end-column="54" />
         </state>
       </provider>
     </entry>

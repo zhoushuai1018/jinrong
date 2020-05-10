@@ -3,6 +3,7 @@ package com.bw.service;
 import com.bw.dao.mapper.ChanpinMapper;
 import com.bw.dao.mapper.DingdanMapper;
 import com.bw.pojo.ChanpinExample;
+import com.bw.pojo.Dingdan;
 import com.bw.pojo.DingdanExample;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -17,5 +18,13 @@ public class DingdanService {
 
     public List findAll() {
         return dingdanMapper.selectByExample(new DingdanExample());
+    }
+
+    public List findDingdan(Long uid) {
+        return dingdanMapper.findDingdan(uid);
+    }
+
+    public void Add(Dingdan dingdan) {
+        dingdanMapper.insert(dingdan);
     }
 }
