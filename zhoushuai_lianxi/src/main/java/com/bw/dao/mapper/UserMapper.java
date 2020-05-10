@@ -37,4 +37,6 @@ public interface UserMapper {
     void updvid(User user);
 
     void upYue(User login);
+
+    void chongzhi(User user);
 }

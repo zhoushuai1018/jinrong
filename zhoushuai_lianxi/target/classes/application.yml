@@ -22,7 +22,12 @@ spring:
       min-idle: 5
       max-total: 5
       max-wait-millis: 200000
-
+      # jsp ����
+  mvc:
+    view:
+     suffix: .jsp
+     prefix: /WEB-INF/jsp/
+    date-format: yyyy-MM-dd
 # mybatis ����
 mybatis:
   # ӳ���ļ�
