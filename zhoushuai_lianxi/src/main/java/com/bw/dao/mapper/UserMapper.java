@@ -27,4 +27,14 @@ public interface UserMapper {
     int updateByPrimaryKeySelective(User record);
 
     int updateByPrimaryKey(User record);
+
+    User findByNameAndPwd(User user);
+
+    void inserUser(User user);
+
+    void updateuser(User login);
+
+    void updvid(User user);
+
+    void upYue(User login);
 }

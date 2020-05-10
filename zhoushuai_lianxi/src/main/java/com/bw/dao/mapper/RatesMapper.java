@@ -27,4 +27,8 @@ public interface RatesMapper {
     int updateByPrimaryKeySelective(Rates record);
 
     int updateByPrimaryKey(Rates record);
+
+    void addRate(Rates rates);
+
+    List findLiv(long uid);
 }

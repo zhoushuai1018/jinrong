@@ -287,4 +287,23 @@
       shouyi = #{shouyi,jdbcType=DECIMAL}
     where cid = #{cid,jdbcType=BIGINT}
   </update>
+  <select id="findChanpinAndTypeAndRate" resultType="com.bw.pojo.vo.All">
+   select * from chanpin ,type,rates where chanpin.tid = type.tid and type.lid=rates.lid
+  </select>
+
+  <select id="findChanpinAndTypeAndRateOne" resultType="com.bw.pojo.vo.All">
+    select * from chanpin ,type,rates where chanpin.cid = type.cid and type.lid=rates.lid and chanpin.cid=#{cid}
+  </select>
+
+  <select id="findByChanpin" resultType="com.bw.pojo.Chanpin">
+    select * from chanpin where tid= #{tid}
+  </select>
+
+  <select id="isUpdate" resultType="com.bw.pojo.vo.All" parameterType="com.bw.pojo.Chanpin">
+    select * from chanpin ,type,rates where chanpin.tid = type.tid and type.lid=rates.lid and chanpin.status=0 and type.tid = #{tid} and chanpin.cid !=#{cid}
+  </select>
+
+  <select id="findMingxi" resultType="com.bw.pojo.vo.All">
+    select * from chanpin ,type,rates where chanpin.tid = type.tid and type.lid=rates.lid and chanpin.status=0 and type.tid = #{tid}
+  </select>
 </mapper>

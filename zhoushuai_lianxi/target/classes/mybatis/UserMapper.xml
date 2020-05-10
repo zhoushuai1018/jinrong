@@ -270,4 +270,25 @@
       vid = #{vid,jdbcType=BIGINT}
     where uid = #{uid,jdbcType=BIGINT}
   </update>
+
+  <select id="findByNameAndPwd" resultType="com.bw.pojo.User" parameterType="com.bw.pojo.User">
+    select * from user where uname= #{uname} and upwd = #{upwd}
+  </select>
+
+  <insert id="inserUser" parameterType="com.bw.pojo.User">
+    insert into user (uid,uname,upwd,phone,yue,zong,vid) values (0,#{uname},#{upwd},#{phone},0,0,0)
+  </insert>
+
+  <update id="updateuser" parameterType="com.bw.pojo.User">
+    update user set yue = yue+#{yue},zong = zong+#{yue} where uid = #{uid}
+  </update>
+
+  <update id="updvid" parameterType="com.bw.pojo.User">
+    update user set vid = #{vid} where uid = #{uid}
+  </update>
+
+  <update id="upYue" parameterType="com.bw.pojo.User">
+    update user set yue= yue-#{yue} where uid = #{uid}
+  </update>
+
 </mapper>

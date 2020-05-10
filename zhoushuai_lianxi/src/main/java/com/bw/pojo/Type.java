@@ -42,4 +42,14 @@ public class Type implements Serializable {
     public void setCid(Long cid) {
         this.cid = cid;
     }
+
+    @Override
+    public String toString() {
+        return "Type{" +
+                "tid=" + tid +
+                ", month=" + month +
+                ", lid=" + lid +
+                ", cid=" + cid +
+                '}';
+    }
 }

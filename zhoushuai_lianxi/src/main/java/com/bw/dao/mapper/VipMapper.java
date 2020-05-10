@@ -1,5 +1,6 @@
 package com.bw.dao.mapper;
 
+import com.bw.pojo.User;
 import com.bw.pojo.Vip;
 import com.bw.pojo.VipExample;
 import java.util.List;
@@ -27,4 +28,6 @@ public interface VipMapper {
     int updateByPrimaryKeySelective(Vip record);
 
     int updateByPrimaryKey(Vip record);
+
+    Vip findEnd(User user);
 }

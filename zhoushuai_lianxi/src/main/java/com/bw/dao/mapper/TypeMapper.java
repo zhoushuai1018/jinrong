@@ -3,6 +3,8 @@ package com.bw.dao.mapper;
 import com.bw.pojo.Type;
 import com.bw.pojo.TypeExample;
 import java.util.List;
+
+import com.bw.pojo.vo.All;
 import org.apache.ibatis.annotations.Param;
 
 public interface TypeMapper {
@@ -27,4 +29,8 @@ public interface TypeMapper {
     int updateByPrimaryKeySelective(Type record);
 
     int updateByPrimaryKey(Type record);
+
+    List findTypeAndRateList();
+
+    All findTypeAndRateOne(Long tid);
 }

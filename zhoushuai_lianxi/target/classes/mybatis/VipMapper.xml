@@ -193,4 +193,8 @@
       name = #{name,jdbcType=VARCHAR}
     where vid = #{vid,jdbcType=BIGINT}
   </update>
+
+  <select id="findEnd" parameterType="com.bw.pojo.User" resultType="com.bw.pojo.Vip">
+    select * from vip where  #{zong}>= edu order by edu desc limit 1
+  </select>
 </mapper>

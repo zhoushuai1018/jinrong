@@ -193,4 +193,13 @@
       cid = #{cid,jdbcType=BIGINT}
     where tid = #{tid,jdbcType=BIGINT}
   </update>
+  <select id="findTypeAndRateList" resultType="com.bw.pojo.vo.All">
+    select * from type,rates where type.lid=rates.lid
+  </select>
+
+  <select id="findTypeAndRateOne" resultType="com.bw.pojo.vo.All">
+    select * from type,rates where type.lid=rates.lid and type.tid=#{tid}
+  </select>
+
+
 </mapper>
