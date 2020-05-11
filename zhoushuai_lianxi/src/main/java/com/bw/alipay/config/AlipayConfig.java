@@ -27,10 +27,10 @@ public class AlipayConfig {
     public static String alipay_public_key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyZcKyW+Fa2ylD/Ium67A1C5FUpxwl78ZQl7fp75PJfiYXdES8AHZ8W1VeX/XFpZjBJcMbZU2NspswnOv3iZdAdm4jNfIduVhh3/AW5ApeoMLKzEH0yEvea5euc6cT6L5Y+qZfe4FECIX0XE8W68PVfh5GBy1liYPbBAkDayerGW4MDL0+XWqjxLE03/wWCdpsi2OsP7Xw0oY1Kkf/LNlmQSaoEt8AuPan63JCRaUzxVq6/keiYgIUJ/e5CmVjpRoxVe0wc6GgdNCU/J5jFGLuvOpiEUxgrs72gJFgyEb0hcqMEzYFoC/7Uxs1rn3WMWPZkiIafjZggkZeF6OBzzs+wIDAQAB";
 
 	// 服务器异步通知页面路径  需http://格式的完整路径，不能加?id=123这类自定义参数，必须外网可以正常访问
-	public static String notify_url = "http://localhost:8081/notify_url";
+	public static String notify_url = "http://localhost:8081/zhifu/notify_url";
 
 	// 页面跳转同步通知页面路径 需http://格式的完整路径，不能加?id=123这类自定义参数，必须外网可以正常访问
-	public static String return_url = "http://localhost:8081/return_url";
+	public static String return_url = "http://localhost:8081/zhifu/return_url";
 
 	// 签名方式
 	public static String sign_type = "RSA2";

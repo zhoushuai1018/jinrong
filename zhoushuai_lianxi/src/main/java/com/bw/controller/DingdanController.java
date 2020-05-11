@@ -1,6 +1,5 @@
 package com.bw.controller;
 
-import com.bw.service.ChanpinService;
 import com.bw.service.DingdanService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;

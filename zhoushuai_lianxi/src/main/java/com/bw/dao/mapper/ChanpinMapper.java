@@ -2,10 +2,11 @@ package com.bw.dao.mapper;
 
 import com.bw.pojo.Chanpin;
 import com.bw.pojo.ChanpinExample;
-import java.util.List;
-
 import com.bw.pojo.vo.All;
+import com.bw.vo.ChanpinVuTypeVoRates;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface ChanpinMapper {
     long countByExample(ChanpinExample example);
@@ -40,4 +41,6 @@ public interface ChanpinMapper {
 
 
     All isUpdate(Chanpin chanpin);
+
+    ChanpinVuTypeVoRates findChanPinById(@Param("id") long id);
 }

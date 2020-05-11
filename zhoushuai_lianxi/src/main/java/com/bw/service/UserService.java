@@ -3,6 +3,7 @@ package com.bw.service;
 import com.bw.dao.mapper.UserMapper;
 import com.bw.dao.mapper.VipMapper;
 import com.bw.pojo.User;
+import com.bw.pojo.User;
 import com.bw.pojo.UserExample;
 import com.bw.pojo.Vip;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,6 +18,8 @@ public class UserService {
 
     @Autowired
     private VipMapper vipMapper;
+
+
 
     public List findAll() {
         return userMapper.selectByExample(new UserExample());
@@ -39,6 +42,7 @@ public class UserService {
     public void update(User login) {
         userMapper.updateuser(login);
         User user = userMapper.selectByPrimaryKey(login.getUid());
+
         Vip vip = vipMapper.findEnd(user);
         if (vip!=null){
             user.setVid(vip.getVid());
@@ -52,5 +56,17 @@ public class UserService {
 
     public void upYue(User login) {
         userMapper.upYue(login);
+    }
+
+    public User getUserByUsername(User user) {
+        return userMapper.getUserByUsername(user);
+    }
+
+    public void addUser(User user) {
+        userMapper.insert(user);
+    }
+
+    public User findByUid(long uid) {
+        return userMapper.selectByPrimaryKey(uid);
     }
 }

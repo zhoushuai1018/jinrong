@@ -39,4 +39,6 @@ public interface UserMapper {
     void upYue(User login);
 
     void chongzhi(User user);
+
+    User getUserByUsername(@Param("user") User user);
 }

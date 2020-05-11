@@ -24,7 +24,7 @@ public class TypeService {
 
 
     public List findAll() {
-        return typeMapper.selectByExample(new TypeExample());
+        return typeMapper.findAll();
     }
 
     public List findTypeAndRateList() {

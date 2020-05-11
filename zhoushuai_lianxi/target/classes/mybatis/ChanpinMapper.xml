@@ -306,4 +306,8 @@
   <select id="findMingxi" resultType="com.bw.pojo.vo.All">
     select * from chanpin ,type,rates where chanpin.tid = type.tid and type.lid=rates.lid and chanpin.status=0 and type.tid = #{tid}
   </select>
+  <select id="findChanPinById" resultType="com.bw.vo.ChanpinVuTypeVoRates">
+    select c.qishu,c.tid,c.benjin,c.startdate,c.jisuandate,c.lastdate,c.num,c.status,c.shouyi,t.month,r.lilv,r.udate
+     from chanpin c, type t, rates r where c.tid = t.tid and t.lid = r.lid and c.cid = #{id}
+  </select>
 </mapper>

@@ -1,8 +1,10 @@
+com\bw\vo\ChanpinVuTypeVoRates.class
 com\bw\controller\ShenheController.class
 com\bw\pojo\Type.class
 com\bw\dao\mapper\ChanpinMapper.class
 com\bw\pojo\RatesExample$GeneratedCriteria.class
 com\bw\service\RateService.class
+com\bw\service\ZhifuService.class
 com\bw\pojo\RatesExample$Criteria.class
 com\bw\dao\mapper\ShenheMapper.class
 com\bw\pojo\ChanpinExample.class
@@ -18,10 +20,12 @@ com\bw\pojo\TypeExample$Criteria.class
 com\bw\pojo\Vip.class
 com\bw\pojo\ShenheExample$Criterion.class
 com\bw\service\TypeService.class
+com\bw\config\AlipayConfig.class
 com\bw\pojo\DingdanExample.class
 com\bw\pojo\TypeExample$GeneratedCriteria.class
 com\bw\pojo\Shenhe.class
 com\bw\controller\ChanpinController.class
+com\bw\pojo\vo\All.class
 com\bw\pojo\Dingdan.class
 com\bw\dao\mapper\TypeMapper.class
 com\bw\controller\VipController.class
@@ -37,10 +41,13 @@ com\bw\controller\ZhifuController.class
 com\bw\pojo\ChanpinExample$Criterion.class
 com\bw\pojo\DingdanExample$Criterion.class
 com\bw\pojo\DingdanExample$Criteria.class
+com\bw\controller\OrderController.class
 com\bw\pojo\VipExample$Criteria.class
 com\bw\pojo\UserExample$GeneratedCriteria.class
+com\bw\util\MD5Util.class
 com\bw\controller\TypeController.class
 com\bw\service\ChanpinService.class
+com\bw\vo\TypeVoRates.class
 com\bw\pojo\UserExample$Criteria.class
 com\bw\dao\mapper\RatesMapper.class
 com\bw\service\UserService.class
@@ -56,4 +63,5 @@ com\bw\pojo\ShenheExample.class
 com\bw\pojo\VipExample.class
 com\bw\dao\mapper\VipMapper.class
 com\bw\pojo\UserExample$Criterion.class
+com\bw\util\UUIDUtil.class
 com\bw\service\ShenheService.class

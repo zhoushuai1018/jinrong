@@ -10,7 +10,7 @@ logging:
 # Spring ≈‰÷√
 spring:
   application:
-    name: demo_service
+    name: zhoushuai_lianxi
   datasource:
     # mysql
     driver-class-name: com.mysql.jdbc.Driver

@@ -203,7 +203,7 @@ h2 {
 			<h2 id="tab4" name="tab">退 款 查 询</h2>
 			<h2 id="tab5" name="tab">交 易 关 闭</h2>
 		</div>
-		<form name=alipayment action="wang" method=get
+		<form name=alipayment action="alipay.trade.page.pay.jsp" method=get
 			target="_blank">
 			<div id="body1" class="show" name="divcontent">
 				<dl class="content">
@@ -394,8 +394,8 @@ h2 {
 		sNow += String(vNow.getSeconds());
 		sNow += String(vNow.getMilliseconds());
 		document.getElementById("WIDout_trade_no").value =  sNow;
-		document.getElementById("WIDsubject").value = "测试";
-		document.getElementById("WIDtotal_amount").value = "0.01";
+		document.getElementById("WIDsubject").value = "余额充值";
+		document.getElementById("WIDtotal_amount").value = "0.00";
 	}
 	GetDateNow();
 </script>

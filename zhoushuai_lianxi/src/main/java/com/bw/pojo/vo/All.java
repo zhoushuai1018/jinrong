@@ -309,4 +309,40 @@ public class All implements Serializable {
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return "All{" +
+                "cid=" + cid +
+                ", qishu='" + qishu + '\'' +
+                ", tid=" + tid +
+                ", benjin=" + benjin +
+                ", startdate=" + startdate +
+                ", jisuandate=" + jisuandate +
+                ", lastdate=" + lastdate +
+                ", num=" + num +
+                ", status=" + status +
+                ", shouyi=" + shouyi +
+                ", did=" + did +
+                ", uid=" + uid +
+                ", udate=" + udate +
+                ", dstatus=" + dstatus +
+                ", lid=" + lid +
+                ", lilv=" + lilv +
+                ", sid=" + sid +
+                ", shenhe=" + shenhe +
+                ", month=" + month +
+                ", uname='" + uname + '\'' +
+                ", upwd='" + upwd + '\'' +
+                ", usalt='" + usalt + '\'' +
+                ", yue=" + yue +
+                ", url='" + url + '\'' +
+                ", zong=" + zong +
+                ", phone='" + phone + '\'' +
+                ", vid=" + vid +
+                ", dengji=" + dengji +
+                ", edu=" + edu +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }

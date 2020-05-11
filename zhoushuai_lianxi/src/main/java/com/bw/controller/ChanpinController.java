@@ -1,11 +1,13 @@
 package com.bw.controller;
 
-import com.bw.pojo.Chanpin;
 import com.bw.pojo.vo.All;
 import com.bw.service.ChanpinService;
-import com.bw.service.UserService;
+import com.bw.vo.ChanpinVuTypeVoRates;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
@@ -21,26 +23,18 @@ public class ChanpinController {
         return chanpinService.findAll();
     }
 
-    @RequestMapping("findChanpinAndTypeAndRate")
-    private List findChanpinAndTypeAndRate(){
-        return chanpinService.findChanpinAndTypeAndRate();
+    @RequestMapping("/findChanPinById")
+    public ChanpinVuTypeVoRates findChanPinById(@RequestParam("id") long id){
+        return chanpinService.findChanPinById(id);
     }
 
-    @RequestMapping("findChanpinAndTypeAndRateOne/{cid}")
-    private All findChanpinAndTypeAndRateOne(@PathVariable("cid")Long cid){
-        return chanpinService.findChanpinAndTypeAndRateOne(cid);
-    }
-
-    @PostMapping("updChanpin")
-    private String updChanpin(@RequestBody Chanpin chanpin){
-        chanpinService.updChanpin(chanpin);
-        return "ok";
-    }
-
-    @RequestMapping("findMingxi")
-    public All findMingxi(@RequestParam("tid")long tid){
+    @RequestMapping("/findMingxi")
+    public All findMingxi(@RequestParam("tid") long tid){
         return chanpinService.findMingxi(tid);
     }
+
+
+
 
 
 }

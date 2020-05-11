@@ -19,7 +19,9 @@
     </script>
 </head>
 <body>
-<h1>恭喜你充值成功</h1>
+
+
+<h1><a href="http://127.0.0.1:5500/jinrong3/客户端/home.html">恭喜你充值成功,点击即可返回个人中心</a></h1>
 
 
 </body>

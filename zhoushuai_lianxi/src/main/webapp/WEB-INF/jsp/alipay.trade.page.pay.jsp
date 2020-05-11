@@ -9,6 +9,7 @@
 <%@ page import="com.alipay.api.DefaultAlipayClient" %>
 <%@ page import="com.alipay.api.AlipayClient" %>
 <%@ page import="com.alipay.api.request.AlipayTradePagePayRequest" %>
+<%@ page import="org.springframework.data.redis.core.RedisTemplate" %>
 <%
 	//获得初始化的AlipayClient
 	AlipayClient alipayClient = new DefaultAlipayClient(AlipayConfig.gatewayUrl, AlipayConfig.app_id, AlipayConfig.merchant_private_key, "json", AlipayConfig.charset, AlipayConfig.alipay_public_key, AlipayConfig.sign_type);
@@ -26,11 +27,13 @@
 	String subject = new String(request.getParameter("WIDsubject").getBytes("ISO-8859-1"),"UTF-8");
 	//商品描述，可空
 	String body = new String(request.getParameter("WIDbody").getBytes("ISO-8859-1"),"UTF-8");
-	
+
+
 	alipayRequest.setBizContent("{\"out_trade_no\":\""+ out_trade_no +"\"," 
-			+ "\"total_amount\":\""+ total_amount +"\"," 
+			+ "\"total_amount\":\""+ total_amount +"\","
 			+ "\"subject\":\""+ subject+"\","
-			+ "\"body\":\""+ body +"\"," 
+			+ "\"body\":\""+ body +"\","
+
 			+ "\"product_code\":\"FAST_INSTANT_TRADE_PAY\"}");
 	
 	//若想给BizContent增加其他可选请求参数，以增加自定义超时时间参数timeout_express来举例说明

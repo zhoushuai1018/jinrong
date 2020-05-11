@@ -33,4 +33,6 @@ public interface TypeMapper {
     List findTypeAndRateList();
 
     All findTypeAndRateOne(Long tid);
+
+    List findAll();
 }

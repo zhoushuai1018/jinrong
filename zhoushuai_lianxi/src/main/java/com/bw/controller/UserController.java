@@ -8,13 +8,14 @@ import com.bw.pojo.User;
 import com.bw.pojo.vo.All;
 import com.bw.service.DingdanService;
 import com.bw.service.UserService;
+import com.bw.util.MD5Util;
+import com.bw.util.UUIDUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.UnsupportedEncodingException;
-import java.math.BigDecimal;
 import java.util.*;
 
 @RequestMapping("/user")
@@ -35,25 +36,56 @@ public class UserController {
         return userService.findAll();
     }
 
+    @RequestMapping("/login")
+    public User login(@RequestBody User user){
+        User login = userService.getUserByUsername(user);
+
+
+        if (login==null){
+            User user1 = new User();
+            user1.setUpwd("0");
+            return user1;
+        }
+
+        if (MD5Util.input2db(user.getUpwd(),login.getUsalt()).equals(login.getUpwd())){
+            return login;
+        }else {
+            User user1 = new User();
+            user1.setUpwd("0");
+            return user1;
+        }
+
+    }
+
+    @RequestMapping("/addUser")
+    public String addUser(@RequestBody User user){
+        String salt = UUIDUtil.uuid();
+        user.setUsalt(salt);
+        user.setUpwd(MD5Util.input2db(user.getUpwd(),salt));
+        userService.addUser(user);
+        return "ok";
+    }
+
+    @RequestMapping("/findByUid")
+    public User findByUid(@RequestParam("uid")long uid){
+
+        return userService.findByUid(uid);
+    }
+
+
     @RequestMapping("/add")
     private String add(@RequestBody User user){
          userService.add(user);
          return "ok";
     }
 
-    @RequestMapping("/login")
-    private User login(@RequestBody User user){
 
-        User login = userService.login(user);
-        if (login!=null){
-            redisTemplate.opsForValue().set("login",login);
-            return login;
-        }
-        return null;
-    }
 
     @RequestMapping("/logindingdan")
     private User logindingdan(@RequestBody All all){
+        System.out.println(all);
+
+
         User user = new User();
         user.setUname(all.getUname());
         user.setUpwd(all.getUpwd());
@@ -66,8 +98,11 @@ public class UserController {
             dingdan.setUdate(new Date());
             dingdan.setDstatus((long)0);
             dingdanService.Add(dingdan);
-            login.setYue(new BigDecimal(all.getZong()));
+            login.setYue(new Double(all.getZong()));
             userService.upYue(login);
+
+
+
             return login;
         }
         return null;
@@ -116,7 +151,7 @@ public class UserController {
             System.out.println("验签失败");
         }
         User login = (User) redisTemplate.opsForValue().get("login");
-        login.setYue(new BigDecimal(total_amount));
+        login.setYue(new Double(total_amount));
         userService.update(login);
         return "";
     }

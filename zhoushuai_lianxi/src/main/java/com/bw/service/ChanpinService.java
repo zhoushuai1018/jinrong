@@ -1,11 +1,10 @@
 package com.bw.service;
 
 import com.bw.dao.mapper.ChanpinMapper;
-import com.bw.dao.mapper.UserMapper;
 import com.bw.pojo.Chanpin;
 import com.bw.pojo.ChanpinExample;
-import com.bw.pojo.UserExample;
 import com.bw.pojo.vo.All;
+import com.bw.vo.ChanpinVuTypeVoRates;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -40,5 +39,9 @@ public class ChanpinService {
     public All findMingxi(long tid) {
 
         return chanpinMapper.findMingxi(tid);
+    }
+
+    public ChanpinVuTypeVoRates findChanPinById(long id) {
+        return chanpinMapper.findChanPinById(id);
     }
 }

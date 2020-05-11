@@ -272,6 +272,30 @@
   </update>
 
   <update id="chongzhi" parameterType="com.bw.pojo.User">
-    update user set yue=yue+#{yue} where uid=#{uid}
+    update user set yue=yue+#{yue},zong=zong+#{yue} where uid=#{uid}
   </update>
+
+
+  <select id="getUserByUsername" resultMap="BaseResultMap">
+    select * from user where uname = #{user.uname};
+  </select>
+
+
+  <update id="updvid" parameterType="com.bw.pojo.User">
+    update user set vid = #{vid} where uid = #{uid}
+  </update>
+
+  <update id="updateuser" parameterType="com.bw.pojo.User">
+    update user set yue = yue+#{yue},zong = zong+#{yue} where uid = #{uid}
+  </update>
+
+  <select id="findByNameAndPwd" resultType="com.bw.pojo.User" parameterType="com.bw.pojo.User">
+     select * from user where uname= #{uname} and upwd = #{upwd}
+  </select>
+
+
+  <update id="upYue" parameterType="com.bw.pojo.User">
+    update user set yue= yue-#{yue} where uid = #{uid}
+  </update>
+
 </mapper>
